@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        html{
+            font-size: 375px
+        }
+        div{
+            width: 10rem;
+            height: 10rem;
+            background-color: #ccc;
+            text-align: center;
+            color: #ffff;
+            margin: 0 auto;
+            font-size: 2rem
+        }
+    </style>
+</head>
+<body>
+    <div> 啦啦啦</div>
+    <script>
+        window.onresize=function(){
+            setHtml()
+        }
+        function setHtml(){
+            document.getElementsByTagName('html')[0].style.fontSize = window.innerWidth/10+ 'px';
+        }
+        setHtml()
+    </script>
+</body>
+</html>
