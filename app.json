@@ -1,0 +1,40 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/seach/seach",
+    "pages/more/more",
+    "pages/detailed/detailed",
+    "pages/hit/hit"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "电影网",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "selectedColor": "#42bd56",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/wode.png",
+        "selectedIconPath": "images/wode-2.png"
+      },
+      {
+        "pagePath": "pages/hit/hit",
+        "text": "热播",
+        "iconPath": "images/remen.png",
+        "selectedIconPath": "images/remen-2.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "个人",
+        "iconPath": "images/shouye.png",
+        "selectedIconPath": "images/shouye-2.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}
