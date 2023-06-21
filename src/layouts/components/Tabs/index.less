@@ -1,0 +1,34 @@
+.tabs-box {
+	background-color: #ffffff;
+	.tabs-menu {
+		position: relative;
+		width: 100%;
+		// height: 40px;
+		.ant-btn {
+			position: absolute;
+			top: 8px;
+			right: 13px;
+		}
+		.ant-tabs > .ant-tabs-nav .ant-tabs-nav-wrap {
+			flex: none;
+			width: calc(100% - 100px);
+		}
+		.ant-tabs > .ant-tabs-nav .ant-tabs-nav-list {
+			align-items: center;
+			.ant-tabs-tab-remove {
+				padding: 0 !important;
+			}
+		}
+		.ant-tabs-card.ant-tabs-top > .ant-tabs-nav .ant-tabs-tab {
+			height: 80%;
+			padding: 8px !important;
+			border-bottom-color: #f0f0f0 !important;
+		}
+		.ant-tabs-tab .anticon {
+			margin-right: 5px !important;
+		}
+	}
+}
+.chosen {
+	background-color: var(--ant-primary-2) !important;
+}

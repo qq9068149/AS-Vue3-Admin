@@ -1,0 +1,44 @@
+.layout {
+	width: 100%;
+	min-width: 760px;
+	height: 100%;
+	.aside {
+		flex: 0 0 auto !important;
+		width: auto !important;
+		min-width: 65px !important;
+		overflow: inherit;
+		transition: all 0.2s ease;
+		.menu {
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+			transition: all 0.2s ease;
+			.logo {
+				box-sizing: border-box;
+				height: 55px;
+				span {
+					font-size: 21.5px;
+					font-weight: bold;
+					color: #dadada;
+					white-space: nowrap;
+				}
+			}
+			.scrollbar {
+				height: calc(100% - 55px);
+			}
+			.menu-scrollbar {
+				overflow-y: auto;
+			}
+		}
+	}
+	.header {
+		box-sizing: border-box;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		height: 55px;
+		padding: 0 15px;
+		background-color: #ffffff;
+		border-bottom: 1px solid #f1f1f1;
+	}
+}
