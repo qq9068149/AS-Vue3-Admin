@@ -80,41 +80,6 @@ yarn lint:stylelint
 # 提交代码（提交前会自动执行 lint:lint-staged 命令）
 yarn commit
 ```
-
-### 项目截图 📷
-
-- 登录页：
-
-![login_light](https://i.imgtg.com/2023/06/20/OT8kGx.png)
-
-- 工作台：
-
-![home_light](https://i.imgtg.com/2023/06/20/OT8xIj.png)
-
-- 监控台：
-
-![monitoring_light](https://i.imgtg.com/2023/06/20/OUWAli.png)
-
-- 表格页：
-
-![table_light](https://i.imgtg.com/2023/06/20/OUWrJL.png)
-
-- 表格自定义列表：
-
-![table_list_light](https://i.imgtg.com/2023/06/20/OUWexC.png)
-
-- 表单：
-
-![form_light](https://i.imgtg.com/2023/06/20/OUsB51.png)
-
-- 主题
-
-![theme](https://i.imgtg.com/2023/06/20/OUsTAI.png)
-
-- 数据大屏：
-
-![dataScreen](https://i.imgtg.com/2023/06/20/OT8Fhp.png)
-
 ### 文件资源目录 📚
 
 ```text
